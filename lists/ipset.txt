@@ -1,0 +1,11 @@
+create hive-blocklist hash:ip family inet maxelem 65536 -exist
+flush hive-blocklist
+add hive-blocklist 209.99.188.170
+add hive-blocklist 154.18.197.29
+add hive-blocklist 43.226.62.221
+add hive-blocklist 193.32.162.84
+add hive-blocklist 92.118.39.14
+add hive-blocklist 164.52.24.185
+add hive-blocklist 23.94.28.169
+create hive-blocklist6 hash:ip family inet6 maxelem 65536 -exist
+flush hive-blocklist6
