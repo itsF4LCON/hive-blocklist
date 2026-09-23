@@ -66,3 +66,8 @@ data is more than 3 hours old.
 ```bash
 python3 scripts/build.py --from scripts/fixtures/export.json --out /tmp/hive-blocklist   # try it locally
 ```
+
+## License
+
+The lists, reports and scripts are released into the public domain under [CC0 1.0](LICENSE). Use them however you
+like; no credit needed.
