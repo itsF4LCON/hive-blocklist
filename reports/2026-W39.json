@@ -1,0 +1,185 @@
+{
+ "week": "2026-W39",
+ "period_start": "2026-09-16",
+ "period_end": "2026-09-23",
+ "generated_at": 1790204601,
+ "totals": {
+  "events": 816,
+  "ips": 7,
+  "ipv4": 7,
+  "ipv6": 0,
+  "ssh_ips": 6,
+  "http_ips": 1
+ },
+ "change": {
+  "events": null,
+  "ips": null
+ },
+ "ips": {
+  "new": 7,
+  "returning": 0,
+  "dropped": 0
+ },
+ "previous": null,
+ "top": {
+  "usernames": [
+   {
+    "k": "root",
+    "n": 758
+   },
+   {
+    "k": "ubuntu",
+    "n": 32
+   }
+  ],
+  "passwords": [
+   {
+    "k": "123123",
+    "n": 5
+   },
+   {
+    "k": "admin123",
+    "n": 5
+   },
+   {
+    "k": "root123",
+    "n": 5
+   },
+   {
+    "k": "root@123",
+    "n": 5
+   },
+   {
+    "k": "123321",
+    "n": 4
+   }
+  ],
+  "paths": [
+   {
+    "k": "/SDK/webLanguage",
+    "n": 1
+   },
+   {
+    "k": "/developmentserver/metadatauploader",
+    "n": 1
+   },
+   {
+    "k": "/druid/index.html",
+    "n": 1
+   },
+   {
+    "k": "/favicon.ico",
+    "n": 1
+   },
+   {
+    "k": "/v1/completions",
+    "n": 1
+   }
+  ],
+  "countries": [
+   {
+    "k": "US",
+    "n": 397
+   },
+   {
+    "k": "PH",
+    "n": 328
+   },
+   {
+    "k": "NL",
+    "n": 44
+   },
+   {
+    "k": "CN",
+    "n": 32
+   },
+   {
+    "k": "JP",
+    "n": 7
+   }
+  ],
+  "user_agents": [
+   {
+    "k": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+    "n": 6
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "n": 5
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "n": 3
+   },
+   {
+    "k": "Mozilla/5.0 zgrab/0.x",
+    "n": 3
+   },
+   {
+    "k": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
+    "n": 2
+   }
+  ]
+ },
+ "top_ips": [
+  {
+   "ip": "209.99.188.170",
+   "ssh": 347,
+   "http": 0,
+   "last_seen": 1790203401
+  },
+  {
+   "ip": "154.18.197.29",
+   "ssh": 300,
+   "http": 0,
+   "last_seen": 1790203390
+  },
+  {
+   "ip": "43.226.62.221",
+   "ssh": 29,
+   "http": 0,
+   "last_seen": 1790203164
+  },
+  {
+   "ip": "193.32.162.84",
+   "ssh": 22,
+   "http": 0,
+   "last_seen": 1790200689
+  },
+  {
+   "ip": "92.118.39.14",
+   "ssh": 9,
+   "http": 0,
+   "last_seen": 1790190245
+  },
+  {
+   "ip": "164.52.24.185",
+   "ssh": 0,
+   "http": 5,
+   "last_seen": 1790195673
+  },
+  {
+   "ip": "23.94.28.169",
+   "ssh": 3,
+   "http": 0,
+   "last_seen": 1790201390
+  }
+ ],
+ "lists": {
+  "ips.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.txt",
+  "ipv4.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv4.txt",
+  "ipv6.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv6.txt",
+  "ips.json": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.json",
+  "nginx-deny.conf": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/nginx-deny.conf",
+  "ipset.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipset.txt"
+ },
+ "highlights": [
+  "This is the first weekly report, so there's nothing to compare with yet.",
+  "The busiest address, 209.99.188.170, made 347 attempts.",
+  "The most tried password was \"123123\" (5 times).",
+  "The most tried username was \"root\".",
+  "The most probed web path was /SDK/webLanguage (1 requests).",
+  "US was the top source country, with 49% of all events."
+ ],
+ "title": "2026-W39: 816 attacks from 7 addresses"
+}
