@@ -1,22 +1,22 @@
 {
  "week": "2026-W39",
- "period_start": "2026-09-16",
- "period_end": "2026-09-23",
- "generated_at": 1790204601,
+ "period_start": "2026-09-21",
+ "period_end": "2026-09-28",
+ "generated_at": 1790574237,
  "totals": {
-  "events": 816,
-  "ips": 7,
-  "ipv4": 7,
+  "events": 34340,
+  "ips": 192,
+  "ipv4": 192,
   "ipv6": 0,
-  "ssh_ips": 6,
-  "http_ips": 1
+  "ssh_ips": 125,
+  "http_ips": 67
  },
  "change": {
   "events": null,
   "ips": null
  },
  "ips": {
-  "new": 7,
+  "new": 192,
   "returning": 0,
   "dropped": 0
  },
@@ -25,144 +25,174 @@
   "usernames": [
    {
     "k": "root",
-    "n": 758
+    "n": 15721
    },
    {
     "k": "ubuntu",
-    "n": 32
+    "n": 2413
+   },
+   {
+    "k": "admin",
+    "n": 986
+   },
+   {
+    "k": "user",
+    "n": 771
+   },
+   {
+    "k": "debian",
+    "n": 487
    }
   ],
   "passwords": [
    {
-    "k": "123123",
-    "n": 5
+    "k": "123456",
+    "n": 1469
    },
    {
-    "k": "admin123",
-    "n": 5
+    "k": "123",
+    "n": 652
    },
    {
-    "k": "root123",
-    "n": 5
+    "k": "1234",
+    "n": 620
    },
    {
-    "k": "root@123",
-    "n": 5
+    "k": "password",
+    "n": 387
    },
    {
-    "k": "123321",
-    "n": 4
+    "k": "12345678",
+    "n": 372
    }
   ],
   "paths": [
    {
-    "k": "/SDK/webLanguage",
-    "n": 1
-   },
-   {
-    "k": "/developmentserver/metadatauploader",
-    "n": 1
-   },
-   {
-    "k": "/druid/index.html",
-    "n": 1
+    "k": "/.env",
+    "n": 56
    },
    {
     "k": "/favicon.ico",
-    "n": 1
+    "n": 50
    },
    {
-    "k": "/v1/completions",
-    "n": 1
+    "k": "/SDK/webLanguage",
+    "n": 18
+   },
+   {
+    "k": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+    "n": 9
+   },
+   {
+    "k": "/?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input",
+    "n": 8
    }
   ],
   "countries": [
    {
     "k": "US",
-    "n": 397
+    "n": 15721
+   },
+   {
+    "k": "FR",
+    "n": 5538
+   },
+   {
+    "k": "AD",
+    "n": 3099
    },
    {
     "k": "PH",
-    "n": 328
+    "n": 1961
    },
    {
-    "k": "NL",
-    "n": 44
-   },
-   {
-    "k": "CN",
-    "n": 32
-   },
-   {
-    "k": "JP",
-    "n": 7
+    "k": "GB",
+    "n": 1934
    }
   ],
   "user_agents": [
    {
+    "k": "libredtail-http",
+    "n": 336
+   },
+   {
+    "k": "Software Security Research/1.0 (+https://reverse-proxies-measurements.softsec.ruhr-uni-bochum.de)",
+    "n": 158
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36",
+    "n": 90
+   },
+   {
+    "k": "Mozilla/5.0",
+    "n": 89
+   },
+   {
     "k": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-    "n": 6
-   },
-   {
-    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
-    "n": 5
-   },
-   {
-    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    "n": 3
-   },
-   {
-    "k": "Mozilla/5.0 zgrab/0.x",
-    "n": 3
-   },
-   {
-    "k": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
-    "n": 2
+    "n": 87
    }
   ]
  },
  "top_ips": [
   {
    "ip": "209.99.188.170",
-   "ssh": 347,
+   "ssh": 2485,
    "http": 0,
-   "last_seen": 1790203401
+   "last_seen": 1790258999
   },
   {
    "ip": "154.18.197.29",
-   "ssh": 300,
+   "ssh": 1938,
    "http": 0,
-   "last_seen": 1790203390
+   "last_seen": 1790572702
   },
   {
-   "ip": "43.226.62.221",
-   "ssh": 29,
+   "ip": "192.252.215.125",
+   "ssh": 1126,
    "http": 0,
-   "last_seen": 1790203164
+   "last_seen": 1790567836
   },
   {
-   "ip": "193.32.162.84",
-   "ssh": 22,
+   "ip": "109.160.32.109",
+   "ssh": 1098,
    "http": 0,
-   "last_seen": 1790200689
+   "last_seen": 1790291375
   },
   {
-   "ip": "92.118.39.14",
-   "ssh": 9,
+   "ip": "109.160.32.115",
+   "ssh": 1098,
    "http": 0,
-   "last_seen": 1790190245
+   "last_seen": 1790393785
   },
   {
-   "ip": "164.52.24.185",
-   "ssh": 0,
-   "http": 5,
-   "last_seen": 1790195673
+   "ip": "109.160.32.120",
+   "ssh": 1098,
+   "http": 0,
+   "last_seen": 1790359414
   },
   {
-   "ip": "23.94.28.169",
-   "ssh": 3,
+   "ip": "109.160.32.14",
+   "ssh": 1098,
    "http": 0,
-   "last_seen": 1790201390
+   "last_seen": 1790513413
+  },
+  {
+   "ip": "109.160.32.31",
+   "ssh": 1098,
+   "http": 0,
+   "last_seen": 1790554556
+  },
+  {
+   "ip": "109.160.32.38",
+   "ssh": 1098,
+   "http": 0,
+   "last_seen": 1790285179
+  },
+  {
+   "ip": "109.160.32.42",
+   "ssh": 1098,
+   "http": 0,
+   "last_seen": 1790308685
   }
  ],
  "lists": {
@@ -175,11 +205,11 @@
  },
  "highlights": [
   "This is the first weekly report, so there's nothing to compare with yet.",
-  "The busiest address, 209.99.188.170, made 347 attempts.",
-  "The most tried password was \"123123\" (5 times).",
+  "The busiest address, 209.99.188.170, made 2,485 attempts.",
+  "The most tried password was \"123456\" (1,469 times).",
   "The most tried username was \"root\".",
-  "The most probed web path was /SDK/webLanguage (1 requests).",
-  "US was the top source country, with 49% of all events."
+  "The most probed web path was /.env (56 requests).",
+  "US was the top source country, with 46% of all events."
  ],
- "title": "2026-W39: 816 attacks from 7 addresses"
+ "title": "2026-W39: 34,340 attacks from 192 addresses"
 }
