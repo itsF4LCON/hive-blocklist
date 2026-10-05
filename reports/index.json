@@ -1,5 +1,14 @@
 [
  {
+  "week": "2026-W40",
+  "title": "2026-W40: 51,960 attacks from 472 addresses",
+  "period_start": "2026-09-28",
+  "period_end": "2026-10-05",
+  "events": 51960,
+  "ips": 472,
+  "summary": "Attacks were up 51.3% from 2026-W39 (34,340 then)."
+ },
+ {
   "week": "2026-W39",
   "title": "2026-W39: 34,340 attacks from 192 addresses",
   "period_start": "2026-09-21",
