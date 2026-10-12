@@ -1,0 +1,216 @@
+{
+ "week": "2026-W41",
+ "period_start": "2026-10-05",
+ "period_end": "2026-10-12",
+ "generated_at": 1791786085,
+ "totals": {
+  "events": 77754,
+  "ips": 426,
+  "ipv4": 426,
+  "ipv6": 0,
+  "ssh_ips": 325,
+  "http_ips": 102
+ },
+ "change": {
+  "events": 49.6,
+  "ips": -9.7
+ },
+ "ips": {
+  "new": 335,
+  "returning": 91,
+  "dropped": 381
+ },
+ "previous": "2026-W40",
+ "top": {
+  "usernames": [
+   {
+    "k": "root",
+    "n": 23870
+   },
+   {
+    "k": "admin",
+    "n": 2142
+   },
+   {
+    "k": "ubuntu",
+    "n": 1940
+   },
+   {
+    "k": "user",
+    "n": 1217
+   },
+   {
+    "k": "debian",
+    "n": 636
+   }
+  ],
+  "passwords": [
+   {
+    "k": "123456",
+    "n": 2638
+   },
+   {
+    "k": "123",
+    "n": 857
+   },
+   {
+    "k": "1234",
+    "n": 835
+   },
+   {
+    "k": "12345678",
+    "n": 584
+   },
+   {
+    "k": "password",
+    "n": 580
+   }
+  ],
+  "paths": [
+   {
+    "k": "/.env",
+    "n": 127
+   },
+   {
+    "k": "/SDK/webLanguage",
+    "n": 114
+   },
+   {
+    "k": "/favicon.ico",
+    "n": 84
+   },
+   {
+    "k": "/.git/config",
+    "n": 11
+   },
+   {
+    "k": "/robots.txt",
+    "n": 10
+   }
+  ],
+  "countries": [
+   {
+    "k": "US",
+    "n": 30760
+   },
+   {
+    "k": "FR",
+    "n": 16977
+   },
+   {
+    "k": "AD",
+    "n": 5248
+   },
+   {
+    "k": "GB",
+    "n": 4234
+   },
+   {
+    "k": "TR",
+    "n": 3546
+   }
+  ],
+  "user_agents": [
+   {
+    "k": "Go Web Pentest Tool",
+    "n": 768
+   },
+   {
+    "k": "Software Security Research/1.0 (+https://goose.softsec.ruhr-uni-bochum.de)",
+    "n": 327
+   },
+   {
+    "k": "libredtail-http",
+    "n": 252
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46",
+    "n": 230
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36",
+    "n": 208
+   }
+  ]
+ },
+ "top_ips": [
+  {
+   "ip": "185.132.126.212",
+   "ssh": 3412,
+   "http": 0,
+   "last_seen": 1791296195
+  },
+  {
+   "ip": "37.27.39.69",
+   "ssh": 2445,
+   "http": 0,
+   "last_seen": 1791710858
+  },
+  {
+   "ip": "199.30.90.8",
+   "ssh": 1964,
+   "http": 0,
+   "last_seen": 1791471752
+  },
+  {
+   "ip": "77.239.124.71",
+   "ssh": 1458,
+   "http": 0,
+   "last_seen": 1791386996
+  },
+  {
+   "ip": "77.239.124.201",
+   "ssh": 1456,
+   "http": 0,
+   "last_seen": 1791590508
+  },
+  {
+   "ip": "77.239.124.204",
+   "ssh": 1456,
+   "http": 0,
+   "last_seen": 1791442123
+  },
+  {
+   "ip": "77.239.124.62",
+   "ssh": 1456,
+   "http": 0,
+   "last_seen": 1791540766
+  },
+  {
+   "ip": "77.239.124.65",
+   "ssh": 1455,
+   "http": 0,
+   "last_seen": 1791614184
+  },
+  {
+   "ip": "77.239.124.67",
+   "ssh": 1449,
+   "http": 0,
+   "last_seen": 1791753213
+  },
+  {
+   "ip": "77.239.124.78",
+   "ssh": 1449,
+   "http": 0,
+   "last_seen": 1791396825
+  }
+ ],
+ "lists": {
+  "ips.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.txt",
+  "ipv4.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv4.txt",
+  "ipv6.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv6.txt",
+  "ips.json": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.json",
+  "nginx-deny.conf": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/nginx-deny.conf",
+  "ipset.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipset.txt"
+ },
+ "highlights": [
+  "Attacks were up 49.6% from 2026-W40 (51,960 then).",
+  "335 addresses are new this week, 91 came back and 381 dropped off the list.",
+  "The busiest address, 185.132.126.212, made 3,412 attempts.",
+  "The most tried password was \"123456\" (2,638 times).",
+  "The most tried username was \"root\".",
+  "The most probed web path was /.env (127 requests).",
+  "US was the top source country, with 40% of all events."
+ ],
+ "title": "2026-W41: 77,754 attacks from 426 addresses"
+}
