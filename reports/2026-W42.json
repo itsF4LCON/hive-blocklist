@@ -1,0 +1,216 @@
+{
+ "week": "2026-W42",
+ "period_start": "2026-10-12",
+ "period_end": "2026-10-19",
+ "generated_at": 1792386397,
+ "totals": {
+  "events": 75894,
+  "ips": 493,
+  "ipv4": 493,
+  "ipv6": 0,
+  "ssh_ips": 377,
+  "http_ips": 120
+ },
+ "change": {
+  "events": -2.4,
+  "ips": 15.7
+ },
+ "ips": {
+  "new": 389,
+  "returning": 104,
+  "dropped": 322
+ },
+ "previous": "2026-W41",
+ "top": {
+  "usernames": [
+   {
+    "k": "root",
+    "n": 21687
+   },
+   {
+    "k": "admin",
+    "n": 1719
+   },
+   {
+    "k": "ubuntu",
+    "n": 1270
+   },
+   {
+    "k": "user",
+    "n": 591
+   },
+   {
+    "k": "test",
+    "n": 272
+   }
+  ],
+  "passwords": [
+   {
+    "k": "123456",
+    "n": 1314
+   },
+   {
+    "k": "123",
+    "n": 552
+   },
+   {
+    "k": "1234",
+    "n": 447
+   },
+   {
+    "k": "password",
+    "n": 435
+   },
+   {
+    "k": "12345678",
+    "n": 345
+   }
+  ],
+  "paths": [
+   {
+    "k": "/.env",
+    "n": 133
+   },
+   {
+    "k": "/SDK/webLanguage",
+    "n": 111
+   },
+   {
+    "k": "/favicon.ico",
+    "n": 92
+   },
+   {
+    "k": "/en/",
+    "n": 29
+   },
+   {
+    "k": "/.env.local",
+    "n": 25
+   }
+  ],
+  "countries": [
+   {
+    "k": "US",
+    "n": 33029
+   },
+   {
+    "k": "FR",
+    "n": 12743
+   },
+   {
+    "k": "GB",
+    "n": 5996
+   },
+   {
+    "k": "AD",
+    "n": 4444
+   },
+   {
+    "k": "AU",
+    "n": 3559
+   }
+  ],
+  "user_agents": [
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "n": 3083
+   },
+   {
+    "k": "curl/8.7.1",
+    "n": 2998
+   },
+   {
+    "k": "WebSiphon/next-0.1",
+    "n": 1200
+   },
+   {
+    "k": "Software Security Research/1.0 (+https://finn.softsec.ruhr-uni-bochum.de)",
+    "n": 800
+   },
+   {
+    "k": "Software Security Research/1.0 (+https://goose.softsec.ruhr-uni-bochum.de)",
+    "n": 792
+   }
+  ]
+ },
+ "top_ips": [
+  {
+   "ip": "180.150.104.65",
+   "ssh": 3513,
+   "http": 0,
+   "last_seen": 1792215381
+  },
+  {
+   "ip": "205.186.128.6",
+   "ssh": 3513,
+   "http": 0,
+   "last_seen": 1791941719
+  },
+  {
+   "ip": "185.177.72.49",
+   "ssh": 0,
+   "http": 2998,
+   "last_seen": 1791915425
+  },
+  {
+   "ip": "77.239.124.69",
+   "ssh": 1458,
+   "http": 0,
+   "last_seen": 1792048925
+  },
+  {
+   "ip": "77.239.124.79",
+   "ssh": 1458,
+   "http": 0,
+   "last_seen": 1792302855
+  },
+  {
+   "ip": "77.239.124.205",
+   "ssh": 1453,
+   "http": 0,
+   "last_seen": 1792075937
+  },
+  {
+   "ip": "77.239.124.202",
+   "ssh": 1451,
+   "http": 0,
+   "last_seen": 1792010635
+  },
+  {
+   "ip": "103.132.1.231",
+   "ssh": 1228,
+   "http": 0,
+   "last_seen": 1792262122
+  },
+  {
+   "ip": "77.239.124.147",
+   "ssh": 1106,
+   "http": 0,
+   "last_seen": 1791884581
+  },
+  {
+   "ip": "109.160.32.37",
+   "ssh": 1047,
+   "http": 0,
+   "last_seen": 1792381922
+  }
+ ],
+ "lists": {
+  "ips.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.txt",
+  "ipv4.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv4.txt",
+  "ipv6.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv6.txt",
+  "ips.json": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.json",
+  "nginx-deny.conf": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/nginx-deny.conf",
+  "ipset.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipset.txt"
+ },
+ "highlights": [
+  "Attacks were down 2.4% from 2026-W41 (77,754 then).",
+  "389 addresses are new this week, 104 came back and 322 dropped off the list.",
+  "The busiest address, 180.150.104.65, made 3,513 attempts.",
+  "The most tried password was \"123456\" (1,314 times).",
+  "The most tried username was \"root\".",
+  "The most probed web path was /.env (133 requests).",
+  "US was the top source country, with 44% of all events."
+ ],
+ "title": "2026-W42: 75,894 attacks from 493 addresses"
+}
