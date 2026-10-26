@@ -1,3 +1,3 @@
-# hive blocklist, 2026-W42, generated 2026-10-19 05:06 UTC
-# 493 addresses seen attacking the hive honeypot in the last 7 days.
+# hive blocklist, 2026-W43, generated 2026-10-26 05:09 UTC
+# 608 addresses seen attacking the hive honeypot in the last 7 days.
 # https://github.com/itsF4LCON/hive-blocklist
