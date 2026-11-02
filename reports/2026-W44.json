@@ -1,0 +1,216 @@
+{
+ "week": "2026-W44",
+ "period_start": "2026-10-26",
+ "period_end": "2026-11-02",
+ "generated_at": 1793601485,
+ "totals": {
+  "events": 75803,
+  "ips": 851,
+  "ipv4": 851,
+  "ipv6": 0,
+  "ssh_ips": 743,
+  "http_ips": 113
+ },
+ "change": {
+  "events": 24.7,
+  "ips": 40.0
+ },
+ "ips": {
+  "new": 688,
+  "returning": 163,
+  "dropped": 445
+ },
+ "previous": "2026-W43",
+ "top": {
+  "usernames": [
+   {
+    "k": "root",
+    "n": 39698
+   },
+   {
+    "k": "ubuntu",
+    "n": 2504
+   },
+   {
+    "k": "admin",
+    "n": 2460
+   },
+   {
+    "k": "user",
+    "n": 1324
+   },
+   {
+    "k": "debian",
+    "n": 637
+   }
+  ],
+  "passwords": [
+   {
+    "k": "123456",
+    "n": 2487
+   },
+   {
+    "k": "123",
+    "n": 1331
+   },
+   {
+    "k": "1234",
+    "n": 1040
+   },
+   {
+    "k": "12345678",
+    "n": 721
+   },
+   {
+    "k": "password",
+    "n": 677
+   }
+  ],
+  "paths": [
+   {
+    "k": "/.env",
+    "n": 108
+   },
+   {
+    "k": "/favicon.ico",
+    "n": 84
+   },
+   {
+    "k": "/SDK/webLanguage",
+    "n": 66
+   },
+   {
+    "k": "/.env.local",
+    "n": 24
+   },
+   {
+    "k": "/.env.production",
+    "n": 24
+   }
+  ],
+  "countries": [
+   {
+    "k": "US",
+    "n": 23088
+   },
+   {
+    "k": "CN",
+    "n": 16132
+   },
+   {
+    "k": "FR",
+    "n": 11550
+   },
+   {
+    "k": "AD",
+    "n": 5527
+   },
+   {
+    "k": "ZA",
+    "n": 3671
+   }
+  ],
+  "user_agents": [
+   {
+    "k": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "n": 516
+   },
+   {
+    "k": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "n": 334
+   },
+   {
+    "k": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:115.8.0) Gecko/20100101 Firefox/115.8.0",
+    "n": 302
+   },
+   {
+    "k": "libredtail-http",
+    "n": 264
+   },
+   {
+    "k": "l9explore/1.2.2",
+    "n": 174
+   }
+  ]
+ },
+ "top_ips": [
+  {
+   "ip": "106.75.86.153",
+   "ssh": 13654,
+   "http": 0,
+   "last_seen": 1793575458
+  },
+  {
+   "ip": "102.209.22.205",
+   "ssh": 3666,
+   "http": 0,
+   "last_seen": 1793501831
+  },
+  {
+   "ip": "164.30.17.82",
+   "ssh": 1693,
+   "http": 0,
+   "last_seen": 1793599876
+  },
+  {
+   "ip": "109.160.32.102",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793511321
+  },
+  {
+   "ip": "109.160.32.108",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793286685
+  },
+  {
+   "ip": "109.160.32.117",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793184049
+  },
+  {
+   "ip": "109.160.32.124",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793290173
+  },
+  {
+   "ip": "109.160.32.133",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793458179
+  },
+  {
+   "ip": "109.160.32.135",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793572941
+  },
+  {
+   "ip": "109.160.32.137",
+   "ssh": 1197,
+   "http": 0,
+   "last_seen": 1793335424
+  }
+ ],
+ "lists": {
+  "ips.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.txt",
+  "ipv4.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv4.txt",
+  "ipv6.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipv6.txt",
+  "ips.json": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ips.json",
+  "nginx-deny.conf": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/nginx-deny.conf",
+  "ipset.txt": "https://raw.githubusercontent.com/itsF4LCON/hive-blocklist/main/lists/ipset.txt"
+ },
+ "highlights": [
+  "Attacks were up 24.7% from 2026-W43 (60,803 then).",
+  "688 addresses are new this week, 163 came back and 445 dropped off the list.",
+  "The busiest address, 106.75.86.153, made 13,654 attempts.",
+  "The most tried password was \"123456\" (2,487 times).",
+  "The most tried username was \"root\".",
+  "The most probed web path was /.env (108 requests).",
+  "US was the top source country, with 30% of all events."
+ ],
+ "title": "2026-W44: 75,803 attacks from 851 addresses"
+}
